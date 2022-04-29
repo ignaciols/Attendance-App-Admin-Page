@@ -64,9 +64,9 @@ export default function AppShellHome() {
 							Schedule
 						</Button></a>
 
-						<Button leftIcon={<UserOff size={24} />} class="sidebutton">
+						<a class="hiddenLink" href="https://attendance-app-absences-page.ignacioloaiza.repl.co/"><Button leftIcon={<UserOff size={24} />} class="sidebutton">
 							Absences
-						</Button>
+						</Button></a>
 
 						<Button leftIcon={<Users size={24} />} class="sidebutton">
 							Students
@@ -77,10 +77,10 @@ export default function AppShellHome() {
 
           <UnstyledButton className="userinfo">
             <Group>
-        <Avatar size="md" color="orange">PN</Avatar>
+        <Avatar size="md" color="orange">A</Avatar>
         <div>
-          <Text size="lg">Parent Name</Text>
-          <Text size="sm" color="gray">parent@email.com</Text>
+          <Text size="lg">Attendance</Text>
+          <Text size="sm" color="gray">attendance@dtechhs.org</Text>
         </div>
       </Group>
             </UnstyledButton>
